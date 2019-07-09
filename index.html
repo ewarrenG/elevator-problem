@@ -3,10 +3,77 @@
   <head>
     <meta charset="utf-8" />
     <title>Elevator problem</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
 
   <body>
-    <h1>Elevator problem</h1>
+    <h1>Elevator problemmmmm</h1>
+    <div class="container">
+      <div class="row">
+        <div id="elevator1" class="col-sm">
+          <!-- Elevator 1 -->
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Elevator 1</h5>
+              <p id="elevator1Queue" class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the
+                card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="elevator2" class="col-sm">
+          <!-- Elevator 2 -->
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Elevator 2</h5>
+              <p id="elevator2Queue" class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the
+                card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="elevator3" class="col-sm">
+          <!-- Elevator 3 -->
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Elevator 3</h5>
+              <p id="elevator3Queue" class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the
+                card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-sm">
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Queue destination"
+              aria-label="Queue destination"
+              aria-describedby="basic-addon2"
+              id="destinationInput"
+            />
+            <div class="input-group-append">
+              <button id="destinationBtn" class="btn btn-outline-secondary" type="button">
+                Button
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm"></div>
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
